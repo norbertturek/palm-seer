@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "sampleAnalysis": "Przykładowa analiza",
+    "history": "Historia",
+    "logout": "Wyloguj",
+    "login": "Logowanie"
+  },
+  "hero": {
+    "title1": "Odkryj tajemnice",
+    "title2": "swojej dłoni",
+    "subtitle": "Zaawansowana analiza chiromancji wspierana przez sztuczną inteligencję. Poznaj swoją przyszłość, charakter i ukryte talenty zapisane w liniach Twojej dłoni.",
+    "sampleButton": "Zobacz przykład analizy",
+    "startButton": "Rozpocznij swoją analizę"
+  },
+  "features": {
+    "validation": {
+      "title": "Walidacja AI",
+      "description": "Automatyczne sprawdzanie czy zdjęcie przedstawia dłoń"
+    },
+    "analysis": {
+      "title": "Głęboka analiza",
+      "description": "Szczegółowy raport wszystkich linii i znaków"
+    },
+    "privacy": {
+      "title": "Prywatność",
+      "description": "Twoje zdjęcia są bezpieczne i poufne"
+    }
+  },
+  "common": {
+    "loading": "Ładowanie...",
+    "error": "Wystąpił błąd",
+    "back": "Powrót",
+    "close": "Zamknij"
+  },
+  "sample": {
+    "title": "Przykładowa analiza",
+    "description": "Zobacz, jak wygląda pełna analiza dłoni przeprowadzona przez naszą sztuczną inteligencję. Poniżej prezentujemy przykładowy wynik.",
+    "cta": {
+      "title": "Chcesz poznać swoją przyszłość?",
+      "description": "Wykonaj własną analizę dłoni i odkryj, co linie Twojej dłoni mówią o Twoim charakterze, talentach i przeznaczeniu.",
+      "button": "Rozpocznij swoją analizę"
+    },
+    "overallScore": "Wynik ogólny analizy",
+    "overallDescription": "Twoja dłoń wskazuje na osobę o wyjątkowym potencjale. Linie są wyraźne i głębokie, co świadczy o silnej woli i determinacji.",
+    "palmLines": "Linie dłoni",
+    "heartLine": {
+      "title": "Linia serca",
+      "description": "Długa i wyraźna linia serca wskazuje na osobę emocjonalną, zdolną do głębokich uczuć i trwałych związków.",
+      "traits": "Empatia, Romantyzm, Lojalność"
+    },
+    "headLine": {
+      "title": "Linia głowy",
+      "description": "Prosta i wyraźna linia głowy świadczy o logicznym myśleniu i zdolnościach analitycznych.",
+      "traits": "Inteligencja, Kreatywność, Logika"
+    },
+    "lifeLine": {
+      "title": "Linia życia",
+      "description": "Głęboka i długa linia życia wskazuje na dobrą witalność i energię życiową.",
+      "traits": "Witalność, Siła, Odporność"
+    },
+    "fateLine": {
+      "title": "Linia losu",
+      "description": "Wyraźna linia losu sugeruje jasną ścieżkę życiową i silne poczucie celu.",
+      "traits": "Determinacja, Cel, Sukces"
+    },
+    "specialSigns": "Znaki specjalne",
+    "jupiterStar": {
+      "name": "Gwiazda na wzgórku Jowisza",
+      "meaning": "Wskazuje na wielki sukces i uznanie w życiu zawodowym"
+    },
+    "triangle": {
+      "name": "Trójkąt na dłoni",
+      "meaning": "Symbol szczęścia i pomyślności w finansach"
+    },
+    "predictions": "Przepowiednia na przyszłość",
+    "careerPrediction": "Kariera: W najbliższych latach czeka Cię znaczący awans lub nowa, ekscytująca ścieżka zawodowa.",
+    "relationshipPrediction": "Związki: Głębokie połączenie emocjonalne z partnerem przyniesie stabilność i szczęście.",
+    "talentPrediction": "Talenty: Odkryjesz w sobie ukryte zdolności artystyczne lub twórcze."
+  },
+  "upload": {
+    "title": "Prześlij zdjęcie dłoni",
+    "description": "Zrób wyraźne zdjęcie wewnętrznej strony lewej dłoni w dobrym oświetleniu. Upewnij się, że wszystkie linie są widoczne.",
+    "credits": "Twoje kredyty",
+    "buyCredits": "Kup 3 kredyty za 15 PLN",
+    "safePayment": "Bezpieczna płatność Stripe",
+    "quickAnalysis": "Analiza w 1 minutę",
+    "notLoggedIn": "Nie jesteś zalogowany",
+    "loginRequired": "Zaloguj się, aby wykonać analizę",
+    "loginButton": "Zaloguj się",
+    "startAnalysis": "Rozpocznij analizę",
+    "analyzing": "Analizuję Twoją dłoń...",
+    "usesOneCredit": "Wykorzystuje 1 kredyt",
+    "validatingImage": "Weryfikuję zdjęcie...",
+    "validationSuccess": "Zdjęcie zweryfikowane! Wykryto dłoń.",
+    "validationFailed": "Nie wykryto dłoni na zdjęciu. Spróbuj ponownie.",
+    "uploadError": "Błąd przesyłania zdjęcia",
+    "analysisError": "Błąd analizy",
+    "paymentError": "Błąd płatności",
+    "noCredits": "Brak kredytów. Kup kredyty, aby kontynuować."
+  },
+  "history": {
+    "title": "Historia analiz",
+    "description": "Przeglądaj swoje poprzednie analizy chiromancji i śledź zmiany w czasie.",
+    "noAnalyses": "Nie masz jeszcze żadnych analiz",
+    "noAnalysesDescription": "Wykonaj swoją pierwszą analizę dłoni, aby zobaczyć ją tutaj.",
+    "startFirst": "Wykonaj pierwszą analizę",
+    "loginRequired": "Zaloguj się, aby zobaczyć historię",
+    "loginDescription": "Musisz być zalogowany, aby przeglądać historię swoich analiz.",
+    "loginButton": "Przejdź do logowania",
+    "analysisFromDate": "Analiza z dnia"
+  },
+  "auth": {
+    "welcome": "Witaj w Chiromancji AI",
+    "description": "Zaloguj się lub załóż konto, aby rozpocząć analizę swojej dłoni.",
+    "login": "Logowanie",
+    "signup": "Rejestracja",
+    "email": "Email",
+    "password": "Hasło",
+    "loginButton": "Zaloguj się",
+    "signupButton": "Zarejestruj się",
+    "loggingIn": "Logowanie...",
+    "signingUp": "Rejestracja...",
+    "loginSuccess": "Zalogowano pomyślnie!",
+    "signupSuccess": "Konto utworzone! Możesz się teraz zalogować.",
+    "loginError": "Błąd logowania",
+    "signupError": "Błąd rejestracji",
+    "passwordMinLength": "Hasło musi mieć minimum 6 znaków"
+  },
+  "imageUpload": {
+    "palmPhoto": "Zdjęcie dłoni",
+    "dragHere": "Przeciągnij zdjęcie tutaj lub kliknij, aby wybrać",
+    "takePhoto": "Zrób zdjęcie",
+    "selectFromGallery": "Wybierz z galerii",
+    "additionalInfo": "Dodatkowe informacje (opcjonalne)",
+    "additionalInfoPlaceholder": "Np. Twój wiek, dominująca ręka, pytania dotyczące przyszłości...",
+    "changePhoto": "Zmień zdjęcie"
+  },
+  "camera": {
+    "title": "Zrób zdjęcie dłoni",
+    "capturedPhoto": "Zrobione zdjęcie",
+    "placePalmInFrame": "Umieść dłoń w ramce",
+    "retake": "Zrób ponownie",
+    "usePhoto": "Użyj zdjęcia"
+  },
+  "analysisResult": {
+    "title": "Wynik analizy",
+    "overallScore": "Wynik ogólny analizy",
+    "handShape": "Kształt dłoni",
+    "palmLines": "Analiza linii dłoni",
+    "mounts": "Wzgórza dłoni",
+    "personality": "Profil osobowości",
+    "relationships": "Relacje i miłość",
+    "career": "Kariera i powołanie",
+    "health": "Zdrowie i witalność",
+    "talents": "Talenty i zdolności",
+    "specialSigns": "Znaki specjalne",
+    "predictions": "Przepowiednie na przyszłość",
+    "luckyElements": "Szczęśliwe elementy",
+    "advice": "Rada na przyszłość",
+    "newAnalysis": "Nowa analiza",
+    "viewHistory": "Zobacz historię",
+    "notFound": "Nie znaleziono analizy",
+    "strengths": "Mocne strony",
+    "weaknesses": "Słabe strony",
+    "loveStyle": "Styl miłości",
+    "compatibility": "Kompatybilność",
+    "currentRelationship": "Obecny związek",
+    "idealCareer": "Idealna kariera",
+    "workStyle": "Styl pracy",
+    "financialOutlook": "Perspektywy finansowe",
+    "generalHealth": "Ogólne zdrowie",
+    "recommendations": "Zalecenia",
+    "naturalTalents": "Naturalne talenty",
+    "hiddenAbilities": "Ukryte zdolności",
+    "shortTerm": "Krótkoterminowe",
+    "longTerm": "Długoterminowe",
+    "luckyNumbers": "Szczęśliwe liczby",
+    "luckyColors": "Szczęśliwe kolory",
+    "luckyDays": "Szczęśliwe dni",
+    "meaning": "Znaczenie",
+    "name": "Nazwa"
+  },
+  "notFound": {
+    "title": "404",
+    "description": "Ups! Strona nie została znaleziona",
+    "backHome": "Wróć na stronę główną"
+  }
+}

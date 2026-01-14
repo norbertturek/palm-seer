@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Home",
+    "sampleAnalysis": "Sample Analysis",
+    "history": "History",
+    "logout": "Logout",
+    "login": "Login"
+  },
+  "hero": {
+    "title1": "Discover the secrets",
+    "title2": "of your palm",
+    "subtitle": "Advanced palm reading analysis powered by artificial intelligence. Discover your future, character, and hidden talents written in the lines of your palm.",
+    "sampleButton": "See sample analysis",
+    "startButton": "Start your analysis"
+  },
+  "features": {
+    "validation": {
+      "title": "AI Validation",
+      "description": "Automatic verification that the photo shows a palm"
+    },
+    "analysis": {
+      "title": "Deep Analysis",
+      "description": "Detailed report of all lines and signs"
+    },
+    "privacy": {
+      "title": "Privacy",
+      "description": "Your photos are safe and confidential"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "back": "Back",
+    "close": "Close"
+  },
+  "sample": {
+    "title": "Sample Analysis",
+    "description": "See what a full palm analysis conducted by our artificial intelligence looks like. Below is a sample result.",
+    "cta": {
+      "title": "Want to know your future?",
+      "description": "Perform your own palm analysis and discover what the lines of your palm say about your character, talents, and destiny.",
+      "button": "Start your analysis"
+    },
+    "overallScore": "Overall Analysis Score",
+    "overallDescription": "Your palm indicates a person of exceptional potential. The lines are clear and deep, indicating strong will and determination.",
+    "palmLines": "Palm Lines",
+    "heartLine": {
+      "title": "Heart Line",
+      "description": "A long and clear heart line indicates an emotional person capable of deep feelings and lasting relationships.",
+      "traits": "Empathy, Romanticism, Loyalty"
+    },
+    "headLine": {
+      "title": "Head Line",
+      "description": "A straight and clear head line indicates logical thinking and analytical abilities.",
+      "traits": "Intelligence, Creativity, Logic"
+    },
+    "lifeLine": {
+      "title": "Life Line",
+      "description": "A deep and long life line indicates good vitality and life energy.",
+      "traits": "Vitality, Strength, Resilience"
+    },
+    "fateLine": {
+      "title": "Fate Line",
+      "description": "A clear fate line suggests a clear life path and strong sense of purpose.",
+      "traits": "Determination, Purpose, Success"
+    },
+    "specialSigns": "Special Signs",
+    "jupiterStar": {
+      "name": "Star on Jupiter's Mount",
+      "meaning": "Indicates great success and recognition in professional life"
+    },
+    "triangle": {
+      "name": "Triangle on the Palm",
+      "meaning": "Symbol of luck and prosperity in finances"
+    },
+    "predictions": "Future Predictions",
+    "careerPrediction": "Career: In the coming years, you will experience a significant promotion or a new, exciting career path.",
+    "relationshipPrediction": "Relationships: A deep emotional connection with your partner will bring stability and happiness.",
+    "talentPrediction": "Talents: You will discover hidden artistic or creative abilities within yourself."
+  },
+  "upload": {
+    "title": "Upload Your Palm Photo",
+    "description": "Take a clear photo of the inside of your left palm in good lighting. Make sure all lines are visible.",
+    "credits": "Your credits",
+    "buyCredits": "Buy 3 credits for 15 PLN",
+    "safePayment": "Secure Stripe payment",
+    "quickAnalysis": "Analysis in 1 minute",
+    "notLoggedIn": "You are not logged in",
+    "loginRequired": "Log in to perform an analysis",
+    "loginButton": "Log in",
+    "startAnalysis": "Start analysis",
+    "analyzing": "Analyzing your palm...",
+    "usesOneCredit": "Uses 1 credit",
+    "validatingImage": "Validating image...",
+    "validationSuccess": "Image validated! Palm detected.",
+    "validationFailed": "No palm detected in the image. Please try again.",
+    "uploadError": "Upload error",
+    "analysisError": "Analysis error",
+    "paymentError": "Payment error",
+    "noCredits": "No credits. Purchase credits to continue."
+  },
+  "history": {
+    "title": "Analysis History",
+    "description": "Browse your previous palm readings and track changes over time.",
+    "noAnalyses": "You don't have any analyses yet",
+    "noAnalysesDescription": "Perform your first palm analysis to see it here.",
+    "startFirst": "Perform first analysis",
+    "loginRequired": "Log in to view history",
+    "loginDescription": "You must be logged in to view your analysis history.",
+    "loginButton": "Go to login",
+    "analysisFromDate": "Analysis from"
+  },
+  "auth": {
+    "welcome": "Welcome to Chiromancy AI",
+    "description": "Log in or create an account to start analyzing your palm.",
+    "login": "Login",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "loginButton": "Log in",
+    "signupButton": "Sign up",
+    "loggingIn": "Logging in...",
+    "signingUp": "Signing up...",
+    "loginSuccess": "Logged in successfully!",
+    "signupSuccess": "Account created! You can now log in.",
+    "loginError": "Login error",
+    "signupError": "Sign up error",
+    "passwordMinLength": "Password must be at least 6 characters"
+  },
+  "imageUpload": {
+    "palmPhoto": "Palm Photo",
+    "dragHere": "Drag a photo here or click to select",
+    "takePhoto": "Take photo",
+    "selectFromGallery": "Select from gallery",
+    "additionalInfo": "Additional information (optional)",
+    "additionalInfoPlaceholder": "E.g. Your age, dominant hand, questions about the future...",
+    "changePhoto": "Change photo"
+  },
+  "camera": {
+    "title": "Take a Palm Photo",
+    "capturedPhoto": "Captured photo",
+    "placePalmInFrame": "Place your palm in the frame",
+    "retake": "Retake",
+    "usePhoto": "Use photo"
+  },
+  "analysisResult": {
+    "title": "Analysis Result",
+    "overallScore": "Overall Analysis Score",
+    "handShape": "Hand Shape",
+    "palmLines": "Palm Lines Analysis",
+    "mounts": "Palm Mounts",
+    "personality": "Personality Profile",
+    "relationships": "Relationships & Love",
+    "career": "Career & Calling",
+    "health": "Health & Vitality",
+    "talents": "Talents & Abilities",
+    "specialSigns": "Special Signs",
+    "predictions": "Future Predictions",
+    "luckyElements": "Lucky Elements",
+    "advice": "Advice for the Future",
+    "newAnalysis": "New analysis",
+    "viewHistory": "View history",
+    "notFound": "Analysis not found",
+    "strengths": "Strengths",
+    "weaknesses": "Weaknesses",
+    "loveStyle": "Love Style",
+    "compatibility": "Compatibility",
+    "currentRelationship": "Current Relationship",
+    "idealCareer": "Ideal Career",
+    "workStyle": "Work Style",
+    "financialOutlook": "Financial Outlook",
+    "generalHealth": "General Health",
+    "recommendations": "Recommendations",
+    "naturalTalents": "Natural Talents",
+    "hiddenAbilities": "Hidden Abilities",
+    "shortTerm": "Short-term",
+    "longTerm": "Long-term",
+    "luckyNumbers": "Lucky Numbers",
+    "luckyColors": "Lucky Colors",
+    "luckyDays": "Lucky Days",
+    "meaning": "Meaning",
+    "name": "Name"
+  },
+  "notFound": {
+    "title": "404",
+    "description": "Oops! Page not found",
+    "backHome": "Return to Home"
+  }
+}
