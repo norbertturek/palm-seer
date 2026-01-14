@@ -1,86 +1,86 @@
 # 🔮 PalmSeer
 
-**PalmSeer** to zaawansowana aplikacja internetowa do analizy chiromancji dłoni, wykorzystująca nowoczesną sztuczną inteligencję (Google Gemini 1.5). Aplikacja pozwala użytkownikom na wgranie zdjęcia dłoni i otrzymanie szczegółowej, spersonalizowanej interpretacji linii, wzgórz i kształtu dłoni.
+**PalmSeer** is an advanced web application for palmistry analysis powered by modern artificial intelligence (Google Gemini 1.5). The application allows users to upload a photo of their palm and receive a detailed, personalized interpretation of lines, mounts, and hand shape.
 
-## ✨ Kluczowe Funkcje
+## ✨ Key Features
 
-- **Analiza AI**: Wykorzystuje model Gemini 1.5 Flash do precyzyjnego rozpoznawania cech dłoni.
-- **Szczegółowa Interpretacja**:
-  - **Linie Główne**: Linia życia, serca, głowy, losu.
-  - **Wzgórza**: Jowisza, Saturna, Apolla, Wenus, etc.
-  - **Kształt Dłoni**: Żywioł (Ziemia, Ogień, Powietrze, Woda).
-- **Profil Osobowości**: Generowanie profilu psychologicznego na podstawie dłoni.
-- **Przepowiednie**: Prognozy dotyczące kariery, zdrowia i miłości.
-- **Integracja Płatności**: System kredytów na analizy (opcjonalny).
-- **Responsywny Design**: Nowoczesny interfejs UI/UX zbudowany z Shadcn UI i Tailwind CSS, działający na urządzeniach mobilnych i desktopowych.
+- **AI Analysis**: Utilizes the Gemini 1.5 Flash model for precise recognition of hand features.
+- **Detailed Interpretation**:
+  - **Major Lines**: Life Line, Heart Line, Head Line, Fate Line.
+  - **Mounts**: Jupiter, Saturn, Apollo, Venus, etc.
+  - **Hand Shape**: Element (Earth, Fire, Air, Water).
+- **Personality Profile**: Generates a psychological profile based on palm features.
+- **Predictions**: Forecasts regarding career, health, and love.
+- **Payment Integration**: Credit system for analyses (optional).
+- **Responsive Design**: Modern UI/UX built with Shadcn UI and Tailwind CSS, fully responsive on mobile and desktop devices.
 
-## 🛠 Technologie
+## 🛠 Technology Stack
 
-Projekt został zbudowany w oparciu o nowoczesny stos technologiczny:
+The project is built using a modern technology stack:
 
 - **Frontend**: [React](https://react.dev/), [Vite](https://vitejs.dev/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/), [Shadcn UI](https://ui.shadcn.com/)
-- **Backend / BaaS**: [Supabase](https://supabase.com/) (Baza danych, Auth, Edge Functions)
+- **Backend / BaaS**: [Supabase](https://supabase.com/) (Database, Auth, Edge Functions)
 - **AI**: [Google Gemini API](https://ai.google.dev/)
 - **State Management**: React Query
 
-## 🚀 Instalacja i Uruchomienie
+## 🚀 Installation and Setup
 
-### Wymagania
+### Prerequisites
 
 - Node.js (v18+)
 - npm / pnpm / bun
-- Konto Supabase (do backendu)
-- Klucz API Google AI (Gemini)
+- Supabase account (for backend)
+- Google AI API Key (Gemini)
 
-### Kroki Instalacyjne
+### Installation Steps
 
-1. **Sklonuj repozytorium:**
+1. **Clone the repository:**
 
    ```bash
    git clone git@github.com:norbertturek/palm-seer.git
    cd palm-seer
    ```
 
-2. **Zainstaluj zależności:**
+2. **Install dependencies:**
 
    ```bash
    npm install
    ```
 
-3. **Skonfiguruj zmienne środowiskowe:**
+3. **Configure environment variables:**
 
-   Utwórz plik `.env` na podstawie `.env.example`:
+   Create a `.env` file based on `.env.example`:
 
    ```bash
    cp .env.example .env
    ```
 
-   Uzupełnij brakujące klucze w pliku `.env` (Supabase URL, Anon Key).
+   Fill in the missing keys in the `.env` file (Supabase URL, Anon Key).
 
-   > **Uwaga:** Klucz `GOOGLE_API_KEY` powinien być skonfigurowany w zmiennych środowiskowych Supabase Edge Functions, a nie bezpośrednio w kliencie frontendowym (dla bezpieczeństwa).
+   > **Note:** The `GOOGLE_API_KEY` should be configured in the Supabase Edge Functions environment variables, not directly in the frontend client (for security).
 
-4. **Uruchom wersję developerską:**
+4. **Run the development server:**
 
    ```bash
    npm run dev
    ```
 
-   Aplikacja będzie dostępna pod adresem: `http://localhost:8080`
+   The application will be available at: `http://localhost:8080`
 
 ## 📦 Deployment
 
 ### Supabase Edge Functions
 
-Aby wdrożyć funkcje backendowe (analiza dłoni):
+To deploy the backend functions (palm analysis):
 
 ```bash
 supabase functions deploy analyze-palm --no-verify-jwt
 supabase functions deploy validate-palm --no-verify-jwt
 ```
 
-Upewnij się, że ustawiłeś sekret `GOOGLE_API_KEY` w panelu Supabase.
+Make sure you have set the `GOOGLE_API_KEY` secret in your Supabase dashboard.
 
-## 📄 Licencja
+## 📄 License
 
-Projekt prywatny. Wszelkie prawa zastrzeżone.
+Private project. All rights reserved.
